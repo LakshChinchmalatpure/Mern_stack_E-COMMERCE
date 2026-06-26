@@ -1,0 +1,6 @@
+{
+  "name": "Curated E-Commerce Platform",
+  "description": "A luxury e-commerce platform with JWT authentication, advanced product search, persistent cart, simulated/real Stripe checkout, AI recommendations, and an administrative inventory dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
