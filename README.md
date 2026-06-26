@@ -1,12 +1,14 @@
-# 🌌 Curated Boutique — Premium Full-Stack E-Commerce Experience
+# 🌌 Curated Boutique — Premium Full-Stack E-Commerce Experience (MERN Stack)
 
-[![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?logo=vite&logoColor=white)](https://vite.dev/)
-[![React](https://img.shields.io/badge/React-19.0-61DAFB?logo=react&logoColor=black)](https://react.dev/)
-[![Express](https://img.shields.io/badge/Express-4.x-000000?logo=express&logoColor=white)](https://expressjs.com/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.x-38B2AC?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Gemini AI](https://img.shields.io/badge/Gemini_AI-2.5_/_3.5-blue?logo=google-gemini&logoColor=white)](https://ai.google.dev/)
+Welcome to **Curated Boutique**, an ultra-premium, full-stack digital shopfront designed for tech-forward professionals, minimalist desk architects, and design connoisseurs. Built as a fully integrated **MERN stack style application** (MongoDB/JSON DB, Express, React 19, and Node.js), this platform features fluid transitions, high-contrast typography, and intuitive administrative control.
 
-Welcome to **Curated Boutique**, an ultra-premium, full-stack digital shopfront designed for tech-forward professionals, minimalist desk architects, and design connoisseurs. Engineered with an absolute obsession for fluid transitions, high-contrast typography, and intuitive administrative control.
+---
+
+## 🔗 Live Application Link
+
+You can experience the live interactive preview, use the AI Curation models, and access the superuser panel directly in Google AI Studio:
+
+👉 **[Launch Curated Boutique Live App](https://aistudio.google.com/u/1/apps/53f16353-c0f8-42e7-9642-ed2f521ff51b?showAssistant=true&showPreview=true&fullscreenApplet=true)**
 
 ---
 
@@ -37,56 +39,17 @@ Welcome to **Curated Boutique**, an ultra-premium, full-stack digital shopfront 
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Technology Stack (MERN Architecture)
 
 | Layer | Technology | Purpose |
 | :--- | :--- | :--- |
 | **Frontend UI** | React 19, Motion, Lucide Icons | Responsive SPA layout, tactile buttons, fluid transitions |
 | **Backend Server** | Express v4, TSX Runtime | High-speed REST APIs, secure API proxies, static file delivery |
+| **Database** | File-backed JSON DB System (MERN Equivalent) | Read/write persistence of user profiles, hashed security tokens, active product inventories, and receipts |
 | **AI Integration** | `@google/genai` (SDK v2) | Contextual product recommendations based on shopping history |
 | **Authentication** | BcryptJS, JWT | Salt-and-hash credentials, signed cookie session handshakes |
 | **Styling Engine** | Tailwind CSS v4, Inter, JetBrains Mono | Global theme definitions, high-contrast typography pairings |
 | **Build Compiler** | Vite, ESBuild | Blazing-fast bundler, clean ES module path resolution |
-
----
-
-## 🚀 Getting Started Locally
-
-### Prerequisites
-Make sure you have **Node.js** (v18 or higher) installed.
-
-### 1. Clone & Install Dependencies
-Navigate to your project root folder and execute:
-```bash
-npm install
-```
-
-### 2. Configure Environment Variables
-Create a `.env` (or `.env.local` for development) in your root directory. Copy the values from `.env.example`:
-```ini
-# Required for AI personalized recommendations
-GEMINI_API_KEY="your_api_key_here"
-
-# Required for signing JWT session tokens
-JWT_SECRET="your_high_entropy_secret_passphrase"
-
-# Optional: Stripe Payment Gateway configuration
-STRIPE_SECRET_KEY="sk_test_..."
-```
-
-### 3. Run the Development Server
-Fire up the local dual-layer Express + Vite compiler:
-```bash
-npm run dev
-```
-Open your browser to [http://localhost:3000](http://localhost:3000) to view the workspace!
-
-### 4. Build for Production
-To bundle assets and compile the server-side architecture into a unified target format:
-```bash
-npm run build
-npm start
-```
 
 ---
 
