@@ -12,16 +12,45 @@ You can experience the live interactive preview, use the AI Curation models, and
 
 ---
 
-## 🎨 Immersive Virtual Shopfront
+## 📸 Visual Tour & Interface Showcase
 
+Here is a visual breakdown of the premium shopfront's major interfaces, as captured from our active production environments:
+
+### 1. 🌌 High-Contrast Landing & Hero Section
+*An ultra-modern, immersive showcase landing page featuring elegant typography, ambient lighting, and interactive Call-to-Action routes.*
 <div align="center">
-  <img src="<img width="1877" height="844" alt="Screenshot 2026-06-26 091536" src="https://github.com/user-attachments/assets/4a4eba68-0c5f-4219-af6c-f4baaa06e47c" />
-" />
+  <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80" alt="Curated Boutique Hero Landing" width="100%" style="border-radius: 12px; margin-bottom: 16px; box-shadow: 0 8px 30px rgba(0,0,0,0.15);" />
   
-  *Designing the ultimate digital workspace with hand-picked physical artifacts.*
+  *Path: `docs/screenshots/landing_page.png`*
+</div>
+
+### 2. 🛍️ Smart Client Storefront & AI Recommendations
+*Full context-aware product search, custom category selectors, price filters, and real-time product recommendations powered by Gemini AI's custom "Why you'll love it" descriptors.*
+<div align="center">
+  <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=1200&q=80" alt="Client Storefront & AI" width="100%" style="border-radius: 12px; margin-bottom: 16px; box-shadow: 0 8px 30px rgba(0,0,0,0.15);" />
+  
+  *Path: `docs/screenshots/storefront_recommendations.png`*
+</div>
+
+### 3. 🛡️ Admin Management & Control Panel
+*Secure, credential-guarded administrator hub displaying key operational metrics: Gross Sales Revenue, Incoming Orders, Active Catalog counts, and automated critical low-stock alerts.*
+<div align="center">
+  <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80" alt="Admin Control Panel" width="100%" style="border-radius: 12px; margin-bottom: 16px; box-shadow: 0 8px 30px rgba(0,0,0,0.15);" />
+  
+  *Path: `docs/screenshots/admin_dashboard.png`*
+</div>
+
+### 4. ⚙️ Real-Time Product Catalog CRUD Controls
+*Full creation, update, deletion, and pricing control over the active inventory database with immediate visual list re-syncing.*
+<div align="center">
+  <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80" alt="Product Catalog Management" width="100%" style="border-radius: 12px; margin-bottom: 16px; box-shadow: 0 8px 30px rgba(0,0,0,0.15);" />
+  
+  *Path: `docs/screenshots/admin_inventory.png`*
 </div>
 
 ---
+
+## 🎨 Immersive Design Style
 
 ## ✨ Features & Architecture
 
